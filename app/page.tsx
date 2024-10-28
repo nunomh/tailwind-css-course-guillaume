@@ -21,6 +21,19 @@ export default function Home() {
       <p>Line 2</p>
 
 
+      {/* Typography */}
+      <p className="mt-4">Typography</p>
+      <p className="font-bold text-2xl">Bold text</p>
+      <p className="font-mono">Monospaced text</p>
+      <p className="note text-xs">Small note</p>
+
+      {/* spacing */}
+      <p className="mt-4">Spacing</p>
+      <div>
+        <div className="bg-blue-500">div1</div>
+        <div className="bg-red-300">div2</div>
+      </div>
+
     </div>
   );
 }
