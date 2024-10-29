@@ -85,6 +85,22 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Columns */}
+      <p className="mt-4">Columns</p>
+      <div className="Parent">
+        <div className="container px-2 columns-3">
+          <p>
+            Lorem  ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed , convallis ex.  Praesent 
+          </p>
+          <p>
+            Lorem  ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed , convallis ex.  Praesent 
+          </p>
+          <p>
+            Lorem  ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed , convallis ex.  Praesent 
+          </p>
+        </div>
+      </div>
+
 
     </div>
   );
